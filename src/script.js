@@ -39,7 +39,7 @@ document.querySelector('button[type="submit"]')
     firstNameField.value = ''
     lastNameField.value = ''
     emailField.value = ''
-    textareaField.value = 'w'
+    textareaField.value = ''
     phoneField.value = ''
     productField.selectedIndex = 0
     helpRadio.checked = true
@@ -55,7 +55,7 @@ document.querySelector('button[type="submit"]')
 
 function showAndHideErrorMessage() {
   const errorMessage = document.querySelector('.error')
-  errorMessage.style.display = 'blocks'
+  errorMessage.style.display = 'block'
   scroll(0,0)
   hideMessageAfterTimeout(errorMessage)
   return
