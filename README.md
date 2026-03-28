@@ -1,28 +1,54 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress do Zero à Nuvem
 
-👋 Seja bem-vindo(a)!
+Projeto de automação de testes utilizando Cypress no formulário local Talking About Testing.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender?
+- Node.js: 20.x (ou 22.x, 24.x+)
+- npm: 10.1.0+
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+### Versões utilizadas neste projeto
 
-## Vamos começar?
+- Node.js: v24.13.1
+- npm: 11.12.0
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+> Sugestão: use essas mesmas versões ou superiores.
 
-___
+## Instalação
 
-Este é um curso da **Escola Talking About Testing**.
+No diretório do projeto, execute:
+
+```bash
+npm install
+```
+
+Versão resumida:
+
+```bash
+npm i
+```
+
+## Execução dos testes
+
+Para executar os testes no modo headless:
+
+```bash
+npm test
+```
+
+Para abrir o Cypress no modo interativo:
+
+```bash
+npm run cy:open
+```
+
+### Execução em viewport mobile (opcional)
+
+```bash
+npm run test:mobile
+npm run cy:open:mobile
+```
+
+## Apoie este projeto
+
+Se este projeto te ajudou, deixe uma estrela no repositório.
